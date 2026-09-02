@@ -3,7 +3,7 @@
 Windows 11 右鍵把 Markdown（`.md`）轉成 Word（`.docx`）或 PDF。
 
 - 不需系統管理員
-- 安裝到目前使用者的 `%LOCALAPPDATA%\\Programs\\MdInk`
+- 安裝到目前使用者的 `%LOCALAPPDATA%\Programs\MdInk`
 - 右鍵選單出現在「顯示更多選項」（或 Shift + 右鍵）
 - 完整解除安裝：登錄檔、捷徑、程式檔都會清掉；已轉出的 Word / PDF 不會刪
 
@@ -12,7 +12,7 @@ Windows 11 右鍵把 Markdown（`.md`）轉成 Word（`.docx`）或 PDF。
 需要 Go 1.23+（Windows amd64）。
 
 ```bat
-cd windows\\mdink
+cd windows\mdink
 set CGO_ENABLED=0
 go build -ldflags "-s -w -H windowsgui" -o MdInk-Setup.exe .
 ```
