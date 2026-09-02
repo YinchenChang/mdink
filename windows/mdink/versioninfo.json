@@ -1,0 +1,27 @@
+{
+  "FixedFileInfo": {
+    "FileVersion": { "Major": 1, "Minor": 0, "Patch": 1, "Build": 0 },
+    "ProductVersion": { "Major": 1, "Minor": 0, "Patch": 1, "Build": 0 },
+    "FileFlagsMask": "3f",
+    "FileFlags": "00",
+    "FileOS": "040004",
+    "FileType": "01",
+    "FileSubType": "00"
+  },
+  "StringFileInfo": {
+    "Comments": "Windows 11 Markdown 轉 Word / PDF，含檔案總管右鍵選單",
+    "CompanyName": "MdInk",
+    "FileDescription": "墨轉 Markdown 轉檔",
+    "FileVersion": "1.0.1.0",
+    "InternalName": "mdink.exe",
+    "LegalCopyright": "MdInk",
+    "OriginalFilename": "MdInk-Setup.exe",
+    "ProductName": "墨轉 MdInk",
+    "ProductVersion": "1.0.1.0"
+  },
+  "VarFileInfo": {
+    "Translation": { "LangID": "0404", "CharsetID": "04B0" }
+  },
+  "IconPath": "icon.ico",
+  "ManifestPath": "app.manifest"
+}
