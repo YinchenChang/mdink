@@ -13,6 +13,7 @@ func writePDF(outPath string, src []byte, title string, meta map[string]string, 
 	if err != nil {
 		return err
 	}
+	// On non-Windows, emit HTML next to the intended PDF so the pipeline can be checked.
 	htmlPath := filepath.Join(filepath.Dir(outPath), filepath.Base(outPath)+".html")
 	if err := os.WriteFile(htmlPath, []byte(htmlDoc), 0644); err != nil {
 		return err
